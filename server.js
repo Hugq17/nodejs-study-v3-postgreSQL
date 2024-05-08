@@ -13,4 +13,4 @@ app.use(express.json())
 
 app.use('/api/v1/students', studentRoutes)
 
-app.listen(process.env.PORT, () => console.log(`app listen on port ${port}`))
+app.listen(process.env.PORT, () => console.log(`app listen on port ${process.env.PORT}`))

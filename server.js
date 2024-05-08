@@ -3,7 +3,6 @@ const studentRoutes = require('./src/student/routes')
 const app = express()
 const dotenv = require("dotenv");
 dotenv.config()
-const port = 3000;
 
 app.get('/', (req, res) => {
     res.send("Hello World");
